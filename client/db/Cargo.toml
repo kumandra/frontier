@@ -12,8 +12,8 @@ kvdb-rocksdb = "0.15.2"
 parking_lot = "0.12.0"
 
 codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] }
-sp-core = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-database = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-runtime = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+sp-core = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-database = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-runtime = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 
 fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage" }

@@ -22,41 +22,41 @@ jsonrpc-core = "18.0.0"
 jsonrpc-pubsub = "18.0.0"
 log = "0.4.8"
 
-sc-basic-authorship = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-cli = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess", features = ["wasmtime"] }
-sc-client-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-consensus = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-consensus-manual-seal = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-executor = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess", features = ["wasmtime"] }
-sc-finality-grandpa = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-keystore = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-network = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-rpc = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-rpc-api = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-service = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess", features = ["wasmtime"] }
-sc-telemetry = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-consensus = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-core = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-finality-grandpa = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-inherents = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-keyring = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-runtime = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-timestamp = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+sc-basic-authorship = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-cli = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra", features = ["wasmtime"] }
+sc-client-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-consensus = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-consensus-manual-seal = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-executor = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra", features = ["wasmtime"] }
+sc-finality-grandpa = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-keystore = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-network = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-rpc = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-rpc-api = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-service = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra", features = ["wasmtime"] }
+sc-telemetry = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-consensus = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-core = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-finality-grandpa = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-inherents = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-keyring = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-runtime = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-timestamp = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 # These dependencies are used for RPC
-pallet-transaction-payment-rpc = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-substrate-frame-rpc-system = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+pallet-transaction-payment-rpc = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+substrate-frame-rpc-system = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 # These dependencies are used for runtime benchmarking
-frame-benchmarking = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-frame-benchmarking-cli = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-frame-system = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-pallet-transaction-payment = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+frame-benchmarking = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+frame-benchmarking-cli = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+frame-system = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+pallet-transaction-payment = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 
 fc-consensus = { path = "../../client/consensus" }
 fc-db = { path = "../../client/db" }
@@ -72,7 +72,7 @@ fp-storage = { path = "../../primitives/storage" }
 frontier-template-runtime = { path = "../runtime", default-features = false, features = ["std"] }
 
 [build-dependencies]
-substrate-build-script-utils = { version = "3.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+substrate-build-script-utils = { version = "3.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 
 [features]
 default = ["aura"]

@@ -23,19 +23,19 @@ rlp = "0.5"
 tokio = { version = "1.14", features = ["sync"] }
 
 codec = { package = "parity-scale-codec", version = "3.0.0" }
-sc-client-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-network = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-rpc = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-service = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-api = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-core = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-io = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-runtime = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-storage = { version = "6.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+sc-client-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-network = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-rpc = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-service = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-api = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-core = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-io = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-runtime = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-storage = { version = "6.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 
 fc-db = { version = "2.0.0-dev", path = "../db" }
 fc-rpc-core = { version = "1.1.0-dev", path = "../rpc-core" }
@@ -44,10 +44,10 @@ fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage" }
 
 [dev-dependencies]
 tempfile = "3.3.0"
-substrate-test-runtime-client = { version = "2.0.0", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+substrate-test-runtime-client = { version = "2.0.0", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 frontier-template-runtime = { path = "../../template/runtime", default-features = false, features = ["std", "aura"] }
-sc-block-builder = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
-sp-consensus = { version = "0.10.0-dev", git = "https://github.com/CESSProject/substrate", branch = "monthly-2022-04-cess" }
+sc-block-builder = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
+sp-consensus = { version = "0.10.0-dev", git = "https://github.com/kumandra/substrate", branch = "monthly-2022-10-kumandra" }
 
 [features]
 rpc_binary_search_estimate = []
